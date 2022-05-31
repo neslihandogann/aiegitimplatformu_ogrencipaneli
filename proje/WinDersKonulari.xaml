@@ -1,0 +1,84 @@
+﻿<Window x:Class="proje.WinDersKonulari"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:proje"
+        mc:Ignorable="d"
+        Title="WinDersKonulari" Height="400" Width="900" WindowStyle="None" Background="{x:Null}" WindowStartupLocation="CenterOwner" ResizeMode="NoResize">
+    <Grid Margin="0,0,95,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="40*"/>
+            <ColumnDefinition Width="121*"/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <Canvas Height="400" VerticalAlignment="Top" Grid.ColumnSpan="3" Margin="0,0,-93.2,0">
+            <Image Source="image/icon/ekle.png"  Canvas.Left="222" Canvas.Top="41" Width="66" Height="58" Panel.ZIndex="3"/>
+            <Label Content="DERS EKLEME PENCERESİ" Canvas.Left="315" Canvas.Top="51" Height="33" FontSize="15" Foreground="White" Panel.ZIndex="3" FontWeight="Bold" HorizontalContentAlignment="Left" VerticalContentAlignment="Center"/>
+            <Rectangle Height="33" Width="562" Canvas.Left="240" Canvas.Top="51" Fill="#61b6ff" Panel.ZIndex="1">
+
+            </Rectangle>
+            <Ellipse Height="98" Width="95" Canvas.Left="199" Canvas.Top="18" Panel.ZIndex="2" StrokeThickness="4">
+                <Ellipse.Fill>
+                    <RadialGradientBrush>
+                        <GradientStop Color="#FF61B6FF" Offset="0.969"/>
+                        <GradientStop Color="#FFE9EFFC" Offset="0.726"/>
+                        <GradientStop Color="#FFCDD2E5" Offset="0.931"/>
+                    </RadialGradientBrush>
+                </Ellipse.Fill>
+            </Ellipse>
+            <Border Height="339" Width="588" Canvas.Left="214" Canvas.Top="51" Background="#FFE0E0E0" CornerRadius="0,0,50,50">
+                <Border.Effect>
+                    <DropShadowEffect Opacity="0.4" Color="#FF61B6FF" Direction="300"/>
+
+                </Border.Effect>
+            </Border>
+            <Label Content="DersKarekodNo" Canvas.Left="271" Canvas.Top="121" Background="#FF61B6FF" Foreground="White" Width="120" Style="{DynamicResource Label_DersEkle}"/>
+            <TextBox Width="108" Canvas.Left="396" Canvas.Top="120" Height="26" Style="{DynamicResource MoseOverImageChange_Textbox}" />
+            <Label Content="Ders Adı" Canvas.Left="271" Canvas.Top="153" Background="#FF61B6FF" Foreground="White" Width="120" Style="{DynamicResource Label_DersEkle}"/>
+            <ComboBox Canvas.Left="396" Canvas.Top="218" Width="108" Style="{DynamicResource ComboBoxFlatStyle}" RenderTransformOrigin="0.528,2.33">
+                <ComboBoxItem Name="cb123">ıtem1</ComboBoxItem>
+                <ComboBoxItem Name="cb143">ıtem2</ComboBoxItem>
+                <ComboBoxItem Name="cb193">ıtem3</ComboBoxItem>
+            </ComboBox>
+            <Label Content="Destek" Canvas.Left="271" Canvas.Top="185" Background="#FF61B6FF" Foreground="White" Width="120" Style="{DynamicResource Label_DersEkle}"/>
+            <Label Content="Ders Veren Kişi" Canvas.Left="271" Canvas.Top="219" Background="#FF61B6FF" Foreground="White" Width="120" Style="{DynamicResource Label_DersEkle}"/>
+            <DatePicker Canvas.Left="398" Canvas.Top="291" Width="108" Height="24"/>
+            <TextBox Width="108" Canvas.Left="396" Canvas.Top="153" Height="26" Style="{DynamicResource MoseOverImageChange_Textbox}" />
+            <Label Content="Ders Tarihi" Canvas.Left="274" Canvas.Top="289" Background="#FF61B6FF" Foreground="White" Width="120" Style="{DynamicResource Label_DersEkle}"/>
+            <ComboBox Canvas.Left="396" Canvas.Top="184" Width="108" Style="{DynamicResource ComboBoxFlatStyle}" RenderTransformOrigin="0.528,2.33">
+                <ComboBoxItem x:Name="cb1" Content="ıtem1"/>
+                <ComboBoxItem x:Name="cb2" Content="ıtem2"/>
+                <ComboBoxItem x:Name="cb3" Content="ıtem3"/>
+            </ComboBox>
+            <ComboBox Canvas.Left="396" Canvas.Top="253" Width="108" Style="{DynamicResource ComboBoxFlatStyle}" RenderTransformOrigin="0.528,2.33">
+                <ComboBoxItem x:Name="cb4" Content="ıtem1"/>
+                <ComboBoxItem x:Name="cb5" Content="ıtem2"/>
+                <ComboBoxItem x:Name="cb6" Content="ıtem3"/>
+            </ComboBox>
+            <Label Content="Ders  Yeri" Canvas.Left="271" Canvas.Top="254" Background="#FF61B6FF" Foreground="White" Width="120" Style="{DynamicResource Label_DersEkle}"/>
+            <Label Content="Ders Sayısı" Canvas.Left="274" Canvas.Top="321" Background="#FF61B6FF" Foreground="White" Width="120" Style="{DynamicResource Label_DersEkle}"/>
+            <TextBox Width="108" Canvas.Left="398" Canvas.Top="320" Height="26" Style="{DynamicResource MoseOverImageChange_Textbox}" />
+            <ComboBox Canvas.Left="652" Canvas.Top="118" Width="108" Style="{DynamicResource ComboBoxFlatStyle}" RenderTransformOrigin="0.528,2.33">
+                <ComboBoxItem x:Name="cb7" Content="ıtem1"/>
+                <ComboBoxItem x:Name="cb8" Content="ıtem2"/>
+                <ComboBoxItem x:Name="cb9" Content="ıtem3"/>
+            </ComboBox>
+            <Label Content="Ders Türü" Canvas.Left="527" Canvas.Top="120" Background="#FF61B6FF" Foreground="White" Width="120" Style="{DynamicResource Label_DersEkle}"/>
+            <DatePicker Canvas.Left="652" Canvas.Top="156" Width="108" Height="24"/>
+            <Label Content="Ders  Son Tarihi" Canvas.Left="527" Canvas.Top="153" Background="#FF61B6FF" Foreground="White" Width="120" Style="{DynamicResource Label_DersEkle}"/>
+            <ComboBox Canvas.Left="652" Canvas.Top="183" Width="108" Style="{DynamicResource ComboBoxFlatStyle}" RenderTransformOrigin="0.528,2.33">
+                <ComboBoxItem x:Name="cb10" Content="ıtem1"/>
+                <ComboBoxItem x:Name="cb11" Content="ıtem2"/>
+                <ComboBoxItem x:Name="cb12" Content="ıtem3"/>
+            </ComboBox>
+            <Label Content="Kodlama Dilleri" Canvas.Left="527" Canvas.Top="185" Background="#FF61B6FF" Foreground="White" Width="120" Style="{DynamicResource Label_DersEkle}"/>
+            <Label Content="Dersin Konusu" Canvas.Left="527" Canvas.Top="216" Background="#FF61B6FF" Foreground="White" Width="120" Style="{DynamicResource Label_DersEkle}"/>
+            <TextBox Width="108" Canvas.Left="652" Canvas.Top="215" Height="80" Style="{DynamicResource MoseOverImageChange_Textbox}" />
+
+
+
+
+        </Canvas>
+    </Grid>
+</Window>
