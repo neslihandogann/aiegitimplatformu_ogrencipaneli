@@ -1,4 +1,4 @@
-# aiegitimplatformu
+# aiegitimplatformu and ÖğrenciPaneli WPF uygulaması
 ## Ai eğitim platformu Kullanılan Teknolojiler 
 ![image](https://github.com/neslihandogann/aiegitimplatformu/blob/main/projeegif.gif)
 ### `WPF`(Windows Presentation Foundation .NET Framework 3.0'ın grafik altyapısını oluşturan XAML tabanlı sistemdir) ayrıca .net tabanlı olup c# kodları ile mvvm yapısını oluşturup window form dan daha gelişmiş bir teknoloji ile ortaya bir uygulama çıkardım.
