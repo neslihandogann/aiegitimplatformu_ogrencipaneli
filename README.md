@@ -23,7 +23,7 @@ Projemi yaparken yararlandığım kaynaklar : [WPF1](https://wpf-tutorial.com/),
  ### öğrenci panelimde kullanıcılar kendilerine özgü bilgileri girip ,o bilgiler üzerinde daha sonradan ekleme ,silme ,listeleme,güncelleme ve temizleme işlemi yapabileceklerdir.kısacası öğrenciler bu panele kayıt olarak ai eğitim platformuna erişim hakkı sağlayacaklardır.
  
  ## Ogrenci Panelinde Kullandığım VeriTabanı Uygulaması
- ### `Microsoft SQL Sever Manangment` nedir ?
+ ### `Microsoft SQL Sever Management` nedir ?
  ![image](https://i.dlpng.com/static/png/7043467_preview.png)
  #### SQL Server Management Studio (SSMS), herhangi bir SQL altyapısını yönetmek için entegre bir ortamdır.
  Microsoft SQL Sever Manangment ile detaylı bilgi almak isterseniz [buradan](https://docs.microsoft.com/en-us/sql/ssms/sql-server-management-studio-ssms?view=sql-server-ver16)  yararlanabilirsiniz.
