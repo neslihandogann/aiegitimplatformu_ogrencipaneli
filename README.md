@@ -16,6 +16,7 @@ SQLite ile detaylı bilgi almak isterseniz [buradan](https://sqlitebrowser.org/)
 ![image](https://github.com/neslihandogann/aiegitimplatformu/blob/main/projegif.gif)
 
  ## ÖğrenciPaneli Kullanılan Teknolojiler 
+ ![image](https://github.com/neslihandogann/aiegitimplatformu_ogrencipaneli/blob/main/ogrencipaneli.PNG)
  ### `WPF`(Windows Presentation Foundation .NET Framework 3.0'ın grafik altyapısını oluşturan XAML tabanlı sistemdir) ayrıca .net tabanlı olup c# kodları ile mvvm yapısını oluşturdum extra olarak crud application ekledim , window form dan daha gelişmiş bir teknoloji ile ortaya bir uygulama çıkardım.
 Projemi yaparken yararlandığım kaynaklar : [WPF1](https://wpf-tutorial.com/),[WPF2](https://docs.microsoft.com/tr-tr/dotnet/desktop/wpf/get-started/create-app-visual-studio?view=netdesktop-6.0),[WPF3](https://www.tutorialspoint.com/wpf/index.htm)
  ## ÖğrenciPaneli Tanıtımı
