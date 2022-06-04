@@ -11,7 +11,7 @@ Projemi yaparken yararlandığım kaynaklar : [WPF1](https://wpf-tutorial.com/),
 #### SQLite, küçük , hızlı , bağımsız , yüksek güvenilirlikli , tam özellikli bir SQL veritabanı motoru uygulayan bir C dili kitaplığıdır . SQLite, dünyada en çok kullanılan veritabanı motorudur. SQLite, tüm cep telefonlarında ve çoğu bilgisayarda yerleşiktir ve insanların her gün kullandığı sayısız diğer uygulamalarla birlikte gelir.
 SQLite ile detaylı bilgi almak isterseniz [buradan](https://sqlitebrowser.org/)  yararlanabilirsiniz.
 
-## projemin gif versiyonu
+## AI eğitim platformu projemin gif versiyonu
 
 ![image](https://github.com/neslihandogann/aiegitimplatformu/blob/main/projegif.gif)
 
@@ -28,4 +28,6 @@ Projemi yaparken yararlandığım kaynaklar : [WPF1](https://wpf-tutorial.com/),
  #### SQL Server Management Studio (SSMS), herhangi bir SQL altyapısını yönetmek için entegre bir ortamdır.
  Microsoft SQL Sever Manangment ile detaylı bilgi almak isterseniz [buradan](https://docs.microsoft.com/en-us/sql/ssms/sql-server-management-studio-ssms?view=sql-server-ver16)  yararlanabilirsiniz.
  
- 
+ ## Ogrenci Paneli projemin gif versiyonu
+
+![image](https://github.com/neslihandogann/aiegitimplatformu_ogrencipaneli/blob/main/ogrencipanel.gif)
