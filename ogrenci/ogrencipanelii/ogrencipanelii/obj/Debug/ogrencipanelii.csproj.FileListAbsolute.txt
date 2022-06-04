@@ -1,0 +1,15 @@
+C:\Users\dogan\Desktop\ogrenci\ogrencipanelii\ogrencipanelii\bin\Debug\ogrencipanelii.exe.config
+C:\Users\dogan\Desktop\ogrenci\ogrencipanelii\ogrencipanelii\bin\Debug\ogrencipanelii.exe
+C:\Users\dogan\Desktop\ogrenci\ogrencipanelii\ogrencipanelii\bin\Debug\ogrencipanelii.pdb
+C:\Users\dogan\Desktop\ogrenci\ogrencipanelii\ogrencipanelii\obj\Debug\ogrencipanelii.csproj.AssemblyReference.cache
+C:\Users\dogan\Desktop\ogrenci\ogrencipanelii\ogrencipanelii\obj\Debug\MainWindow.g.cs
+C:\Users\dogan\Desktop\ogrenci\ogrencipanelii\ogrencipanelii\obj\Debug\App.g.cs
+C:\Users\dogan\Desktop\ogrenci\ogrencipanelii\ogrencipanelii\obj\Debug\ogrencipanelii_MarkupCompile.cache
+C:\Users\dogan\Desktop\ogrenci\ogrencipanelii\ogrencipanelii\obj\Debug\ogrencipanelii_MarkupCompile.lref
+C:\Users\dogan\Desktop\ogrenci\ogrencipanelii\ogrencipanelii\obj\Debug\MainWindow.baml
+C:\Users\dogan\Desktop\ogrenci\ogrencipanelii\ogrencipanelii\obj\Debug\ogrencipanelii.g.resources
+C:\Users\dogan\Desktop\ogrenci\ogrencipanelii\ogrencipanelii\obj\Debug\ogrencipanelii.Properties.Resources.resources
+C:\Users\dogan\Desktop\ogrenci\ogrencipanelii\ogrencipanelii\obj\Debug\ogrencipanelii.csproj.GenerateResource.cache
+C:\Users\dogan\Desktop\ogrenci\ogrencipanelii\ogrencipanelii\obj\Debug\ogrencipanelii.csproj.CoreCompileInputs.cache
+C:\Users\dogan\Desktop\ogrenci\ogrencipanelii\ogrencipanelii\obj\Debug\ogrencipanelii.exe
+C:\Users\dogan\Desktop\ogrenci\ogrencipanelii\ogrencipanelii\obj\Debug\ogrencipanelii.pdb

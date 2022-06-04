@@ -1,0 +1,35 @@
+﻿<Window x:Class="ogrencipanelii.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ogrencipanelii"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="1200" Background="LightSalmon">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF8E6CDD" Offset="0"/>
+                <GradientStop Color="#FFA9F7FF" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Label Content="             ÖĞRENCİ KAYIT PANELİ" HorizontalAlignment="Center" Margin="250,33,252.6,0" VerticalAlignment="Top" Width="391" FontSize="20" Background="#FFA9F7FF" Foreground="#FF877587" FontWeight="Bold"/>
+        <Label Content="Ad Soyad" HorizontalAlignment="Left" Margin="47,182,0,0" VerticalAlignment="Top" FontSize="15"/>
+        <Label Content="Yaşı" HorizontalAlignment="Left" Margin="53,231,0,0" VerticalAlignment="Top" FontSize="15"/>
+        <Label Content="Cinsiyeti" HorizontalAlignment="Left" Margin="47,283,0,0" VerticalAlignment="Top" FontSize="15"/>
+        <Label Content="Yaşadığı Şehir" HorizontalAlignment="Left" Margin="39,324,0,0" VerticalAlignment="Top" FontSize="15"/>
+        <TextBox  x:Name="adsoyad_txt" HorizontalAlignment="Left" Height="30" Margin="139,182,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="246" FontSize="15" TextChanged="TextBox_TextChanged"/>
+        <DataGrid x:Name="DataGrid" HorizontalAlignment="Left" Height="224" Margin="426,139,0,0" VerticalAlignment="Top" Width="743"/>
+        <Button x:Name="insert_btn" Content="Kayıt Ekle" HorizontalAlignment="Left" Margin="33,461,0,0" VerticalAlignment="Top" Width="121" Height="64" Background="#FFA9F7FF" FontSize="15" Foreground="#FF1842EB" FontWeight="Bold" Click="Insert_btn_Click"/>
+        <Button x:Name="update_btn" Content="Kayıt Güncelle" HorizontalAlignment="Left" Margin="162,461,0,0" VerticalAlignment="Top" Width="115" Height="64" Background="#FFA9F7FF" FontSize="15" Foreground="#FF1842EB" FontWeight="Bold" Click="Upadate_btn_Click"/>
+        <Button x:Name="delete_btn" Content="kayıt Sil " HorizontalAlignment="Left" Margin="282,461,0,0" VerticalAlignment="Top" Width="117" Height="64" Background="#FFA9F7FF" FontSize="15" Foreground="#FF1842EB" FontWeight="Bold" Click="Delete_btn_Click"/>
+        <Button x:Name="cleardata_btn" Content="Temizle" HorizontalAlignment="Left" Margin="404,461,0,0" VerticalAlignment="Top" Width="121" Height="64" Background="#FFA9F7FF" FontSize="15" Foreground="#FF1842EB" FontWeight="Bold" Click="ClearData_btn_Click"/>
+        <TextBox x:Name="age_txt" HorizontalAlignment="Left" Height="30" Margin="139,231,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="246" FontSize="15" TextChanged="TextBox_TextChanged"/>
+        <TextBox x:Name="gender_txt" HorizontalAlignment="Left" Height="30" Margin="141,279,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="246" FontSize="15" TextChanged="TextBox_TextChanged"/>
+        <TextBox x:Name="city_txt" HorizontalAlignment="Left" Height="30" Margin="141,322,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="246" FontSize="15" TextChanged="TextBox_TextChanged"/>
+        <Image HorizontalAlignment="Left" Height="113" Margin="31,16,0,0" VerticalAlignment="Top" Width="107" Source="el.png"/>
+        <TextBox x:Name="search_txt" HorizontalAlignment="Left" Height="30" Text="     silmek ve güncellemek için id no gir" Margin="282,394,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="311" FontSize="15" TextChanged="TextBox_TextChanged"/>
+        <Label Content="ID" HorizontalAlignment="Left" Margin="250,394,0,0" VerticalAlignment="Top" FontSize="15"/>
+
+    </Grid>
+</Window>
